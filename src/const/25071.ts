@@ -1,0 +1,19 @@
+const i = 300
+const s = 767
+const r = 576
+const a = 375
+const o = 55
+const l = 70
+const c = 500
+const d = 750
+const u = 3
+
+export const Eb = r
+export const El = d
+export const Ii = u
+export const LH = a
+export const MN = s
+export const O8 = i
+export const g = c
+export const oO = o
+export const vH = l

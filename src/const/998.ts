@@ -1,0 +1,20 @@
+export const U = Object.freeze({
+  pink: "#f78da7",
+  plum: "#9c4b92",
+  purple: "#673ab7",
+  teal: "#03687d",
+  cerulean: "#03a9f4",
+  ocean: "#00bcd4",
+  fog: "#abb8c3",
+  iron: "#607d8b",
+  forest: "#417505",
+  emerald: "#51a868",
+  mint: "#37d67a",
+  lime: "#cddc39",
+  canary: "#fbcd00",
+  sunflower: "#ffac17",
+  tangerine: "#ff6900",
+  sunset: "#f44336",
+  sierra: "#d44441",
+  magenta: "#e91e63"
+})

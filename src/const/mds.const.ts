@@ -1,0 +1,5 @@
+export const graphServer = "/api/mp/models/graph"
+export const attachmentsServer = "/api/mp/attachments/graph"
+export const mdsPrefetch = "features/mds_prefetch"
+export const prefetchKey = "data.model.views"
+export const defaultLayerId = "aaaaaaaaaaaaaaaaaaaaaaaaa"

@@ -1,0 +1,16 @@
+release
+umd
+/**/**/npm-debug.log*
+/**/**/yarn-error.log
+/**/**/dist
+.DS_Store
+node_modules
+/**/**/.umi
+/**/**/build
+/**/**/.umi-production
+/**/**/dist
+yarn.lock
+packages
+package-lock.json
+.idea
+app/public/avatar/**

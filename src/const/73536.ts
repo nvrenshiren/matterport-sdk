@@ -1,0 +1,23 @@
+export const P = {
+  ADD_FROM_PHOTOS: "add_from_photos",
+  ATTACHMENT: "attachmentViewer",
+  CONFIRM: "confirm",
+  CTA: "cta",
+  HELP: "help",
+  HIGHLIGHT_EDITOR: "highlight_editor",
+  LAYER_ADD: "layer_add",
+  LINK_EDITOR: "link_editor",
+  MEASUREMENT_HELP: "measurementModeHelp",
+  MEDIA_EMBED_POPUP: "mediaEmbedPopup",
+  MODEL_VIEW_ADD: "model_view_add",
+  MODEL_VIEW_EDITOR: "model_view_editor",
+  MODEL_VIEW_DUPLICATE: "model_view_duplicate",
+  PHOTO_VIEWER: "photo_viewer",
+  RATING_THANK_YOU: "rating_thank_you",
+  SETTINGS: "settings",
+  SHARE: "share",
+  TERMS: "terms",
+  TOUR_SETTINGS: "hlr_settings",
+  VIEWS_INFO: "views_info",
+  VR_SELECT: "vrSelect"
+}

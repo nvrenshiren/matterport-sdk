@@ -1,0 +1,17 @@
+export const TourStoriesKey = "tour-stories"
+export const R3 = "spaces.tours_v2"
+export const Yi = "tours2"
+export const o9 = "gt"
+export const Wf = 0
+export const qe = 1
+export const rU = "hr"
+export const Nu = 0
+export const iL = 1
+export const PR = "tour"
+export const pQ = 0
+export const l4 = 1
+export const yY = 2
+export const C7 = 3
+export const K5 = 24
+export const hA = 50
+export const xP = 200

@@ -1,0 +1,5 @@
+{
+  "extends": "../../tsconfig.json",
+  "exclude": ["node_modules", "./src/lib/3d-tiles-renderer"],
+  "include": ["./src", "./global.d.ts", "../../../YunzhanV3_Meta/59425.ts"]
+}

@@ -1,0 +1,9 @@
+"./GetFloors.ts" 地板数据
+"./GetMattertags.ts" 热点数据
+"./GetModelDetails.ts" 场景基础数据,基本信息,场景模型与贴图配置
+"./GetModelImage.ts" 场景开场缩略图配置,包含初始点位
+"./GetModelOptions.ts" 常规配置
+"./GetRoomBounds.ts" 房间区域配置
+"./GetRoom.ts" 房间配置
+"./GetSnapshots.ts" 导览路径配置
+"./GetSweeps.ts" 点位配置,包含点位贴图配置
