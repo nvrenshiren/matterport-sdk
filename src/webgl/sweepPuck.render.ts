@@ -146,6 +146,7 @@ export class SweepPuckRender {
       normal: DirectionVector.UP
     })
     this.onFloor ? t.position.copy(e.floorPosition).add(this.puckOffset) : (t.position.copy(e.position), t.rotation.setFromQuaternion(e.rotation))
+
     t.name = e.id
     t.updateMatrixWorld(!1)
     t.renderOrder = PickingPriorityType.panoMarker

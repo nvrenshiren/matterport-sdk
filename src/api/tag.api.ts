@@ -62,7 +62,7 @@ interface IHotInfo {
     color: string
     stemEnabled: boolean
     showTitle: boolean
-    iconSize: number,
+    iconSize: number
     iconUrl: string
     stemLength: number
   }

@@ -121,7 +121,7 @@ export class NearSweep {
                   currentObject.neighbours = currentObject.neighbours.filter(n => n !== this.selected)
                 } else {
                   sweepObject.neighbours = Array.from(new Set(sweepObject.neighbours.concat(id)))
-                  currentObject.neighbours = Array.from(new Set(sweepObject.neighbours.concat(this.selected)))
+                  currentObject.neighbours = Array.from(new Set(currentObject.neighbours.concat(this.selected)))
                 }
               }
             } else {

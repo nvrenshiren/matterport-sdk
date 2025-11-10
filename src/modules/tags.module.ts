@@ -1064,13 +1064,16 @@ export default class TagsModule extends Module {
         h && h.id !== e && (await this.engine.commandBinder.issueCommand(new AnnotationCloseCommand(h.id, h.annotationType)))
         s.setOpenTagView(Object.assign({}, a))
         const i = s.getCapabilities(e)
-        null !== t &&
-          i.focus &&
-          (n || this.viewmodeData.isInside()) &&
-          (await this.engine.commandBinder.issueCommand(new FocusOnPinInsideCommand({ pinPosition: a, transition: t })).then(() => {
-            const info = this.getSaveInfoById(a.id)
-            this.engine.broadcast(new TagOpenedMessage(a.id, info))
-          }))
+        if (null !== t && i.focus && (n || this.viewmodeData.isInside())) {
+          const info = this.getSaveInfoById(a.id)
+          this.engine.broadcast(new TagOpenedMessage(a.id, info))
+          //禁止点击tag进行点位移动
+          // await this.engine.commandBinder.issueCommand(new FocusOnPinInsideCommand({ pinPosition: a, transition: t })).then(() => {
+          //   const info = this.getSaveInfoById(a.id)
+          //   this.engine.broadcast(new TagOpenedMessage(a.id, info))
+          // })
+        }
+
         // this.engine.commandBinder.issueCommand(new SelectSearchResultCommand(a.id, searchModeType.MATTERTAG))
         setTimeout(() => {
           this.opening = null

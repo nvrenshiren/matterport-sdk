@@ -143,6 +143,7 @@ export class MarkerMesh extends Mesh<SphereGeometry, MarkerMaterial> {
   configure(parameters: MarkerMeshParameters) {
     const { radius, normal, rings, texture, opacity, tint } = parameters
     const { material } = this
+    material.depthTest = !1
     void 0 !== radius && (this.scale.setScalar(radius), material.setDiscRadius(radius))
     void 0 !== normal && material.setDiscNormal(normal)
     void 0 !== rings && material.setRings(rings)
